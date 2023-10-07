@@ -1,0 +1,157 @@
+.custom-modal {
+  width: 100%;
+  height: 100%;
+
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  background: rgba(121, 72, 72, 0.336);
+}
+
+.confirm {
+  background: rgba(72, 121, 84, 0.336);
+}
+
+.help {
+  background-color: rgba(255, 255, 0, 0.158);
+}
+
+.boxModalAlert {
+  width: 30%;
+  min-height: 40%;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(102, 102, 102);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3%;
+  gap: 1rem;
+}
+
+
+.boxModalAlert p {
+  font-size: 1.1em;
+}
+
+.buttonCancel-modal {
+  background-color: rgb(236, 71, 71);
+  border: none;
+  width: 10rem;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  font-size: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttonConfirm-modal {
+  background-color: rgb(90, 209, 90);
+  ;
+  border: none;
+  width: 10rem;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  font-size: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+ol {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em
+}
+
+ul {
+  list-style-type: none;
+}
+
+.alert-box {
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  border-radius: 4px;
+}
+
+
+@media (max-width:1750px) {
+  .boxModalAlert {
+    width: 45%;
+    min-height: 40%;
+  }
+
+  .boxModalAlert p {
+    font-size: 1em;
+  }
+
+  ol {
+    font-size: 1em
+  }
+}
+
+@media (max-width:1180px) {
+  .boxModalAlert {
+    width: 55%;
+    min-height: 50%;
+  }
+
+  .boxModalAlert p {
+    font-size: 1em;
+  }
+
+}
+
+
+@media (max-width:768px) {
+  .boxModalAlert {
+    width: 80%;
+    min-height: 50%;
+  }
+
+  .boxModalAlert p {
+    font-size: 1em;
+  }
+
+}
+
+@media (max-width:425px) {
+  .boxModalAlert {
+    width: 95%;
+    min-height: 50%;
+    padding: 18px;
+  }
+
+  .boxModalAlert p {
+    font-size: 0.8em;
+  }
+
+  ol {
+    font-size: 0.8em
+  }
+
+}

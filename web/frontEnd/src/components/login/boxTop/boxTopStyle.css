@@ -1,0 +1,30 @@
+.boxTop {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-login {
+    width: 20rem;
+    height: auto;
+}
+
+@media (max-width:1440px) {
+    .img-login {
+        width: 13rem;
+    }
+}
+
+@media (max-width:768px) {
+    .img-login {
+        width: 35%;
+    }
+}
+
+@media (max-width:425px) {
+    .img-login {
+        width: 50%;
+    }
+}

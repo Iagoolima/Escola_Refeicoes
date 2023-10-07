@@ -1,0 +1,116 @@
+    .boxRegister {
+    background-color: whitesmoke;
+
+    width: 33rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(221, 221, 221);
+}
+
+.title-register{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 5rem;
+    font-size:1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+.boxInput-register {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-register {
+ 
+    border: none;
+    border-radius: 10px 0 0 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 3rem;
+    width: 50%;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.button-register {
+    padding: 5px;
+    width: 10%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: rgb(90, 209, 90);
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+}
+
+@media (max-width:1750px){
+    .boxRegister {
+        width: 25rem;
+        min-height: 13rem;
+        padding: 5px;
+    }
+    .title-register{
+        font-size:1.3em;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:1300px){
+    .boxRegister {
+        width: 22rem;
+        min-height: 13rem;
+        padding: 5px;
+    }
+    .title-register{ 
+        font-size:1.1em;
+        margin-bottom: 0;
+    }
+    .input-register {
+        height: 2.5rem;
+    }
+    .button-register {
+        height: 2.5rem;
+    }
+}
+
+@media (max-width:1156px){
+    .boxRegister {
+        width: 100%;
+        min-height: 13rem;
+        padding: 5px;
+    }
+}
+@media (max-width:425px){ 
+    .input-register {
+        width: 70%;
+    }
+    .button-register {
+        padding: 5px;
+        width: 17%;
+    }
+}

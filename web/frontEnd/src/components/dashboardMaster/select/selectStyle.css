@@ -1,0 +1,199 @@
+.select-master {
+    height: 100%;
+    width: auto;
+
+}
+
+
+.boxSelect {
+    background-color: whitesmoke;
+
+    width: 33rem;
+    position: relative;
+    min-height: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(221, 221, 221);
+}
+
+
+.title-select {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 5rem;
+    font-size: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+.boxSelect-select {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 5rem;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-radius: 20px;
+    gap: 0.5rem;
+    padding: 10px;
+
+
+}
+
+.buttonConfirm-select {
+    background-color: rgb(90, 209, 90);
+    border: none;
+    width: 10rem;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    font-size: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.BoxItem {
+    display: flex;
+    min-height: 3rem;
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 5px;
+    position: relative;
+
+    border-radius: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-word;
+}
+
+
+.nameItem {
+    height: 1rem;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    align-items: center;
+    justify-content: center;
+
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.deleteButton {
+    padding: 5px;
+    min-width: 15%;
+    min-height: 100%;
+    border: none;
+    background-color: rgb(236, 71, 71);
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    align-self: stretch;
+
+}
+
+
+.EmptyText {
+    color: rgb(54, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+@media(max-width:1750px) {
+    .boxSelect {
+        width: 25rem;
+        min-height: 14rem;
+        padding: 1rem;
+    }
+
+    .title-select {
+        height: 3rem;
+        font-size: 1.3em;
+    }
+
+    .buttonConfirm-select {
+        width: 9rem;
+        height: 3.5rem;
+    }
+}
+
+@media(max-width:1300px) {
+    .boxSelect {
+        width: 22rem;
+        min-height: 12rem;
+        padding: 15px;
+    }
+
+    .title-select {
+        height: 2rem;
+        font-size: 1.1em;
+    }
+
+    .buttonConfirm-select {
+        width: 9rem;
+        height: 3.5rem;
+    }
+
+    .BoxItem {
+
+        min-height: 2.5rem;
+        width: 15rem;
+    }
+
+    .deleteButton {
+        padding: 5px;
+        min-width: 20%;
+    }
+}
+
+
+@media(max-width:1156px) {
+    .select-master {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .boxSelect {
+        min-width: 100%;
+        min-height: 12rem;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BoxItem {
+
+        min-height: 2.5rem;
+        width: 100%;
+    }
+}

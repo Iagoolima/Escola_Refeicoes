@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.text-notFound {
+    font-size: 2em
+}
+
+@media (max-width: 425px) {
+    .text-notFound {
+        font-size: 1em;
+    }
+}

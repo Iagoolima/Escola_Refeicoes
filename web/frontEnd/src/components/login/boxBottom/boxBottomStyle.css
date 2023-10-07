@@ -1,0 +1,60 @@
+.boxBottom {
+    width: 40rem;
+    height: auto;
+
+    background-color: white;
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 20px;
+    gap: 1rem;
+}
+
+.text-boxBottom {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+
+@media (max-width:1444px) {
+    .boxBottom {
+        width: 30rem;
+    }
+
+    .text-boxBottom {
+        font-size: 2em
+    }
+}
+
+@media (max-width:768px) {
+    .boxBottom {
+        width: 80%;
+    }
+
+    .text-boxBottom {
+        font-size: 2em
+    }
+}
+
+@media (max-width:525px) {
+    .boxBottom {
+        width: 90%;
+    }
+
+    .text-boxBottom {
+        font-size: 1.7em
+    }
+}
+
+@media (max-width:425px) {
+    .boxBottom {
+        width: 95%;
+        padding: 10px 20px;
+    }
+
+}

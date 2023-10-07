@@ -1,0 +1,116 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    gap: 4rem;
+    height: auto;
+    width: 100%;
+}
+
+.boxInput {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.input-login {
+    width: 60%;
+    height: auto;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(41, 41, 41, 0.527);
+    font-size: 1.2em;
+    padding-left: 5px;
+    outline: none;
+
+    border-radius: 0;
+}
+
+.buttonLogin {
+    width: 60%;
+    height: 4rem;
+
+    background-color: #E40520;
+    border: 2px solid transparent;
+    border-radius: 20px;
+
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.1s;
+    color: white;
+    cursor: pointer;
+}
+
+
+span {
+    padding-top: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+
+@media (max-width:1440px) {
+    form {
+        gap: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .buttonLogin {
+        font-size: 1em;
+    }
+
+    .input-login {
+        width: 70%;
+    }
+
+    .buttonLogin {
+        width: 70%;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .input-login {
+        width: 80%;
+    }
+
+    .buttonLogin {
+        width: 80%;
+    }
+}
+
+@media (max-width:525px) {
+    form {
+        gap: 4rem;
+    }
+
+    .input-login {
+        font-size: 1em;
+    }
+
+    .buttonLogin {
+        width: 60%;
+    }
+}
+
+@media (max-width:425px) {
+
+    .input-login {
+        font-size: 1em;
+    }
+
+    .buttonLogin {
+        width: 60%;
+        font-size: 1em;
+    }
+}

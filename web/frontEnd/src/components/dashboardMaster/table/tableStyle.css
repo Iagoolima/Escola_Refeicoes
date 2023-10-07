@@ -1,0 +1,105 @@
+.container-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(252, 252, 252);
+}
+
+.titleName-table {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.boxContent-table {
+    width: 100%;
+    min-height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin-top: 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.buttonDelete {
+    background-color: rgb(236, 71, 71);
+    border: none;
+    width: 10rem;
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.coffe-item {
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;
+
+    font-size: 1.2em;
+    border-bottom: 1px solid silver;
+}
+
+@media (max-width:1750px) {
+    .titleName-table {
+        font-size: 1.3em;
+    }
+
+    .buttonDelete {
+        background-color: rgb(236, 71, 71);
+        border: none;
+        width: 9rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width:1180px) {
+
+    .buttonDelete {
+        background-color: rgb(236, 71, 71);
+        border: none;
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .container-table {
+        padding: 20px;
+    }
+
+}
+
+
+
+@media (max-width:425px) {
+    .buttonDelete {
+        width: 70%;
+    }
+}
+
+@media (max-width:290px) {
+    .buttonDelete {
+        width: 90%;
+    }
+}

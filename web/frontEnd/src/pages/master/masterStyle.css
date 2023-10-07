@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#container-master {
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-bottom: 4rem;
+}
+
+.containerMain-master {
+    display: flex;
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+    padding: 0px 15px;
+}
+
+.titleDashboard {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 15%;
+    color: rgb(116, 116, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.containerLeft-master {
+    width: 65%;
+    height: auto;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerRegister-master,
+.containerselect-master {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.containerRight-master {
+    width: auto;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.containerTable-master {
+    display: flex;
+
+    width: 30rem;
+
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 1rem;
+    gap: 3rem;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(221, 221, 221);
+}
+
+.titletable {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerBottom-master {
+    width: 70%;
+    height: auto;
+
+    margin-top: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(221, 221, 221);
+    flex-direction: column;
+}
+
+.containerResults-master {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1750px) {
+    .containerLeft-master {
+        width: 65%;
+        height: auto;
+        gap: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .containerRight-master {
+
+        padding-top: 3px;
+
+    }
+
+    .containerMain-master {
+        padding: 0px 10px;
+        justify-content: space-around;
+    }
+
+    .containerTable-master {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 25rem;
+        height: auto;
+
+        padding: 01rem;
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+    .titletable {
+        font-size: 1.8em;
+    }
+}
+
+@media(max-width:1300px) {
+    .titletable {
+        font-size: 1.6em;
+    }
+}
+
+@media(max-width:1180px) {
+    .containerLeft-master {
+        gap: 2rem;
+    }
+
+    .containerRight-master {
+        padding-top: 0px;
+        width: 65%;
+    }
+
+    .containerMain-master {
+
+        justify-content: space-around;
+        gap: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .containerTable-master {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 100%;
+        height: auto;
+
+        padding: 01rem;
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+
+    .containerBottom-master {
+        width: 65%;
+        margin: 0;
+        padding: 16px
+    }
+
+    .containerResults-master {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1156px) {
+
+    .containerRegister-master,
+    .containerselect-master {
+        width: 100%;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:768px) {
+
+    .containerRight-master {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .containerMain-master {
+        padding: 0px 10px;
+        justify-content: space-around;
+        gap: 3rem;
+        margin-bottom: 5rem;
+    }
+
+
+    .containerTable-master {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 100%;
+        height: auto;
+
+        padding: 01rem;
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+
+    .containerLeft-master {
+        gap: 2rem;
+        width: 100%;
+    }
+
+
+
+    .titleDashboard {
+
+        font-size: 1.7em;
+    }
+
+
+    .containerBottom-master {
+        width: 100%;
+
+    }
+
+    #container-master {
+        margin-bottom: 0;
+    }
+}

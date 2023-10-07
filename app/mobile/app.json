@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SESI",
+    "slug": "SESI",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
+    
+  }
+}

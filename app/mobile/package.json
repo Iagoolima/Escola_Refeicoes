@@ -1,0 +1,42 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@hookform/resolvers": "^3.1.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-navigation/stack": "^6.3.16",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "expo": "^49.0.0",
+    "expo-constants": "~14.4.2",
+    "expo-secure-store": "~12.3.1",
+    "expo-status-bar": "~1.6.0",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.2",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-native": "0.72.4",
+    "react-native-animatable": "^1.3.3",
+    "react-native-exit-app": "^1.1.0",
+    "react-native-iphone-x-helper": "^1.3.1",
+    
+    "react-native-web": "~0.19.6",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
