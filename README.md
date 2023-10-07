@@ -1,4 +1,5 @@
 # Sistema de Votação de Refeições para Escolas - Plataforma Web e Mobile
+Link Visualização n meu linkedin: https://www.linkedin.com/posts/iago-silva-7a6a90241_javascript-reactjs-reactnative-activity-7112272113461342209-vG0O?utm_source=share&utm_medium=member_desktop
 
 Este projeto tem como objetivo desenvolver um sistema de votação de refeições para escolas, acessível tanto na plataforma web quanto na plataforma mobile. A finalidade é permitir que os alunos façam suas escolhas para o café da manhã e o almoço do dia através de um processo de votação. As opções disponíveis são fornecidas por um responsável da unidade escolar, tornando possível um controle eficaz das escolhas dos alunos e, consequentemente, a redução do desperdício de alimentos.
 
